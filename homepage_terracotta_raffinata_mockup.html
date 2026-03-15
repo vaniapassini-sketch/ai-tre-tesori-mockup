@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ai Tre Tesori — Homepage Mockup · Terracotta Raffinata</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: #f5f0e8; font-family: Georgia, serif; }
+
+  .att-nav {
+    background: #f5f0e8;
+    padding: 18px 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 0.5px solid #b5a08e;
+  }
+  .att-nav-logo { font-size: 13px; letter-spacing: 0.14em; color: #8a6a58; }
+  .att-nav-links { display: flex; gap: 28px; }
+  .att-nav-links a {
+    font-family: Arial, sans-serif;
+    font-size: 11px;
+    letter-spacing: 0.1em;
+    color: #8a6a58;
+    text-decoration: none;
+  }
+
+  .att-hero {
+    background: #e8ddd0;
+    min-height: 420px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 80px 48px;
+  }
+  .att-hero-over {
+    font-family: Arial, sans-serif;
+    font-size: 10px;
+    letter-spacing: 0.22em;
+    color: #a8b09a;
+    margin-bottom: 20px;
+  }
+  .att-hero-h1 {
+    font-size: 52px;
+    font-weight: 400;
+    color: #6a4a38;
+    margin: 0 0 24px;
+    line-height: 1.15;
+    max-width: 680px;
+  }
+  .att-hero-sub {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #7a6a58;
+    line-height: 1.7;
+    max-width: 460px;
+    margin: 0 auto 36px;
+  }
+  .att-cta {
+    font-family: Georgia, serif;
+    font-size: 12px;
+    letter-spacing: 0.14em;
+    color: #c89b88;
+    border: 0.5px solid #c89b88;
+    padding: 13px 34px;
+    background: transparent;
+    cursor: pointer;
+  }
+
+  .att-sep {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 48px 48px 8px;
+    gap: 16px;
+  }
+  .att-sep-line { flex: 1; height: 0.5px; background: #a8b09a; max-width: 80px; }
+  .att-sep-dot { width: 4px; height: 4px; border-radius: 50%; background: #a8b09a; }
+
+  .att-section {
+    padding: 48px 80px;
+    background: #f5f0e8;
+    text-align: center;
+  }
+  .att-section-label {
+    font-family: Arial, sans-serif;
+    font-size: 10px;
+    letter-spacing: 0.2em;
+    color: #a8b09a;
+    margin-bottom: 12px;
+  }
+  .att-section-h2 {
+    font-size: 30px;
+    font-weight: 400;
+    color: #6a4a38;
+    margin: 0 0 16px;
+  }
+  .att-section-body {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #7a6a58;
+    line-height: 1.8;
+    max-width: 540px;
+    margin: 0 auto;
+  }
+
+  .att-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    padding: 24px 48px 56px;
+    background: #f5f0e8;
+  }
+  .att-card {
+    background: #ede5d8;
+    padding: 36px 28px;
+    text-align: center;
+  }
+  .att-card-title {
+    font-size: 17px;
+    font-weight: 400;
+    color: #c89b88;
+    letter-spacing: 0.06em;
+    margin: 0 0 12px;
+  }
+  .att-card-body {
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    color: #7a6a58;
+    line-height: 1.7;
+    margin: 0;
+  }
+
+  .att-band {
+    background: #c89b88;
+    padding: 56px 80px;
+    text-align: center;
+  }
+  .att-band-h2 {
+    font-size: 30px;
+    font-weight: 400;
+    color: #f5f0e8;
+    margin: 0 0 12px;
+  }
+  .att-band-sub {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    color: #f0e8e0;
+    margin: 0 0 28px;
+    letter-spacing: 0.06em;
+  }
+  .att-band-cta {
+    font-family: Georgia, serif;
+    font-size: 12px;
+    letter-spacing: 0.14em;
+    color: #f5f0e8;
+    border: 0.5px solid #f5f0e8;
+    padding: 12px 32px;
+    background: transparent;
+    cursor: pointer;
+  }
+
+  .att-footer {
+    background: #4a3428;
+    padding: 36px 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .att-footer-logo { font-size: 13px; letter-spacing: 0.12em; color: #c89b88; }
+  .att-footer-info {
+    font-family: Arial, sans-serif;
+    font-size: 11px;
+    color: #a8b09a;
+    text-align: right;
+    line-height: 1.8;
+  }
+</style>
+</head>
+<body>
+
+  <nav class="att-nav">
+    <div class="att-nav-logo">AI TRE TESORI</div>
+    <div class="att-nav-links">
+      <a href="#">La Location</a>
+      <a href="#">Gli Spazi</a>
+      <a href="#">Gallery</a>
+      <a href="#">Contatti</a>
+    </div>
+  </nav>
+
+  <section class="att-hero">
+    <div class="att-hero-over">A WEDDING VENUE UNLIKE ANY OTHER</div>
+    <h1 class="att-hero-h1">Nature as your setting.<br>Italy as your backdrop.</h1>
+    <p class="att-hero-sub">An ancient woodland near Ferrara, where every season tells a different story.</p>
+    <button class="att-cta">Plan your day with us</button>
+  </section>
+
+  <div class="att-sep">
+    <div class="att-sep-line"></div>
+    <div class="att-sep-dot"></div>
+    <div class="att-sep-line"></div>
+  </div>
+
+  <section class="att-section">
+    <div class="att-section-label">LA LOCATION</div>
+    <h2 class="att-section-h2">Un teatro naturale</h2>
+    <p class="att-section-body">From open-air ceremonies among the trees to intimate receptions in our white halls — Ai Tre Tesori adapts to your vision, not the other way around.</p>
+  </section>
+
+  <div class="att-cards">
+    <div class="att-card">
+      <div class="att-card-title">Il Bosco</div>
+      <p class="att-card-body">Cerimonie all'aperto tra gli alberi. Luci naturali, ombra e verde in ogni stagione.</p>
+    </div>
+    <div class="att-card">
+      <div class="att-card-title">Le Scuderie</div>
+      <p class="att-card-body">400 mq di sale bianche e vuote. Lo spazio si plasma al vostro stile, non il contrario.</p>
+    </div>
+    <div class="att-card">
+      <div class="att-card-title">La Torre</div>
+      <p class="att-card-body">Un punto panoramico unico. Il tramonto sulla campagna emiliana come cornice del vostro giorno.</p>
+    </div>
+  </div>
+
+  <section class="att-band">
+    <h2 class="att-band-h2">Plan your day with us</h2>
+    <p class="att-band-sub">Rito civile · Ricevimento · Cerimonia all'aperto</p>
+    <button class="att-band-cta">Get in touch</button>
+  </section>
+
+  <footer class="att-footer">
+    <div class="att-footer-logo">AI TRE TESORI</div>
+    <div class="att-footer-info">
+      Via Gramsci 49/51 · 44019 Voghiera · Ferrara<br>
+      aitretesori@gmail.com · 347 950 2270
+    </div>
+  </footer>
+
+</body>
+</html>
